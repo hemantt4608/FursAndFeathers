@@ -1,0 +1,12 @@
+/* .product-page{
+    display: flex;
+    background-color: brown;
+} */
+.product-list
+{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+

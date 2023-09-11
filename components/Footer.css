@@ -1,0 +1,87 @@
+.contu{
+    /* border: 1px solid red; */
+    display: grid;
+    background-color: black;
+    
+}
+.footer {
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: red;
+    color: white;
+    /* background-color: black; */
+    /* line-height: 20px; */
+}
+
+ul li {
+    line-height: 25px;
+}
+
+a {
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* border-radius: 500%; */
+}
+
+.con li {
+    list-style: none;
+}
+
+
+
+.dfooter{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+/* flex-wrap: wrap; */
+/* justify-content: space-between; */
+border: 1px solid yellow;
+}
+
+.newsletter{
+display: flex;
+/* flex-grow: 1; */
+justify-content: flex-end;
+/* padding: 5px; */
+/* border: 1px solid red; */
+/* text-align: left; */
+color: white;
+font-size: 20px;
+/* text-indent: -500px; */
+}
+h3 {
+margin-right: 5%;
+padding-top: 2%;
+}
+.subs {
+font-size: large;
+font-weight: bold;
+background-color: teal;
+}
+.subs:hover {
+background-color: teal;
+color: white;
+}
+
+.socials-wrap li{
+display: flex;
+/* padding: 20px; */
+}
+.footer li{
+    font-size: 14px;
+    color: rgb(225, 218, 209);
+}
+.footer li:hover{
+    background-color: teal;
+}
+.footertext{
+    margin-left: 10px;
+}
